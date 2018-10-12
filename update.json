@@ -1,9 +1,16 @@
 {
 	"remoteVersion" : 2,
 	"forceUpdate": true,
-	"updateTitle" : "New Update !!",
-	"updateDescription": "Goodest update ever\n ebb.io goodest\n https://ebb.io",
+	"updateTitle" : "發現新版本",
+	"updateDescription": 目前版本的 ebb 已經過時，請安裝新版本以繼續觀賞。\n https://ebb.io",
 	"extraAction": [
-		
+		{
+			"name": " 下載 APK ",
+			"url" : "https://get.ebb.app/android"
+		},
+		{
+			"name": " Google Play ",
+			"url" : "http://play.google.com/store/apps/details?id=io.ebb.app"
+		}
 	]
 }
