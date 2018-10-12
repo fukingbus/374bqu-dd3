@@ -1,0 +1,16 @@
+{
+	"remoteVersion" : 2,
+	"forceUpdate": false,
+	"updateTitle" : "New Update !!",
+	"updateDescription": "Goodest update ever\n ebb.io goodest\n https://ebb.io",
+	"extraAction": [
+		{
+			"name": "Download!",
+			"url" : "https://get.ebb.app/android"
+		},
+		{
+			"name": "More",
+			"url" : "https://google.com"
+		}
+	]
+}
