@@ -1,6 +1,6 @@
 {
-	"remoteVersion" : 2,
-	"forceUpdate": true,
+	"remoteVersion" : 1,
+	"forceUpdate": false,
 	"updateTitle" : "發現新版本",
 	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續觀賞。\n https://ebb.io",
 	"extraAction": [
