@@ -1,15 +1,15 @@
 {
-	"remoteVersion" : 1,
-	"forceUpdate": false,
+	"remoteVersion" : 2,
+	"forceUpdate": true,
 	"updateTitle" : "版本更新",
-	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續使用。\n THIS IS A TEST DIALOG \n NO FURTHER MOVE REQUIRED",
+	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續使用。",
 	"extraAction": [
 		{
-			"name": " 下載 APK ",
+			"name": "下載 APK",
 			"url" : "https://get.ebb.app/android"
 		},
 		{
-			"name": " Google Play ",
+			"name": "Google Play",
 			"url" : "http://play.google.com/store/apps/details?id=io.ebb.app"
 		}
 	]
