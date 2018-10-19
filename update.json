@@ -1,6 +1,6 @@
 {
 	"remoteVersion" : 3,
-	"remoteVersionName" : "1.0"
+	"remoteVersionName" : "1.0",
 	"forceUpdate": true,
 	"updateTitle" : "版本更新",
 	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續使用。",
