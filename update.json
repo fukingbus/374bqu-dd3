@@ -5,12 +5,8 @@
 	"forceUpdate": true,
 	"updateTitle" : "版本更新",
 	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續使用。",
-	"showAds": false,
+	"showAds": true,
 	"extraAction": [
-		{
-			"name": "下載 APK",
-			"url" : "https://ebb.andro1d.app/release/v1.apk"
-		},
 		{
 			"name": "Google Play",
 			"url" : "http://play.google.com/store/apps/details?id=io.ebb.app"
