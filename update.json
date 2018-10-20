@@ -1,10 +1,10 @@
 {
-	"remoteVersion" : 4,
-	"remoteVersionName" : "1.0",
+	"remoteVersion" : 6,
+	"remoteVersionName" : "1.1",
 	"forceUpdateMin": 3,
-	"forceUpdate": true,
-	"updateTitle" : "版本更新",
-	"updateDescription": "目前版本的 ebb 已經過時，請安裝新版本以繼續使用。",
+	"forceUpdate": false,
+	"updateTitle" : "發現新版本",
+	"updateDescription": "更穩定的新版本 ebb 已準備就緒",
 	"showAds": true,
 	"extraAction": [
 		{
