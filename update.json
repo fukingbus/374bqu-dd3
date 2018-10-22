@@ -1,6 +1,6 @@
 {
-	"remoteVersion" : 6,
-	"remoteVersionName" : "1.1",
+	"remoteVersion" : 7,
+	"remoteVersionName" : "1.2",
 	"forceUpdateMin": 3,
 	"forceUpdate": false,
 	"updateTitle" : "發現新版本",
