@@ -9,7 +9,7 @@
 	"extraAction": [
 		{
 			"name": "Google Play",
-			"url" : "http://play.google.com/store/apps/details?id=io.ebb.app"
+			"url" : "http://get.ebb.app"
 		}
 	]
 }
