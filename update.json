@@ -9,7 +9,7 @@
 	"extraAction": [
 		{
 			"name": "下載更新",
-			"url" : "http://get.ebb.app"
+			"url" : "http://get.ebb.app/android"
 		}
 	]
 }
