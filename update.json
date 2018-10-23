@@ -8,7 +8,7 @@
 	"showAds": true,
 	"extraAction": [
 		{
-			"name": "Google Play",
+			"name": "下載更新",
 			"url" : "http://get.ebb.app"
 		}
 	]
