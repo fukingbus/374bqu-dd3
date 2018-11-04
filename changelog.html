@@ -1,0 +1,170 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+body{
+	margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #102331;
+    background-image: none;
+}
+
+.section{
+	color: rgb(234, 245, 252);
+    background-color: rgb(14, 46, 67);
+    cursor: auto;
+    border-radius: 3px;
+    transition: border 250ms ease 0s;
+    box-shadow: rgb(20, 55, 86) 0px 0px 0px 1px inset;
+}
+
+.font-standard {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.box{
+	padding: 8;
+    margin: 0 auto;
+    width: fit-content;
+}
+.box .title{
+	color: rgb(234, 245, 252);
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+	width: inherit;
+}
+.box .subtitle{
+	color: rgb(234, 245, 252);
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+	width: 100%;
+}
+.box .subtitle .strip{
+	float: right;
+    font-size: 8;
+}
+
+.hightlighted{
+	padding: 4px;
+    color: rgb(105, 166, 230);
+    background-color: rgb(27, 69, 97);
+    cursor: auto;
+    border-radius: 4px;
+    transition: border 250ms ease 0s;
+    box-shadow: rgb(20, 55, 86) 0px 0px 0px 1px inset;
+    font-weight: bold;
+	line-height: 2;
+}
+
+.collapsed{
+	display: none;
+}
+
+.expanded{
+	display: block;
+}
+
+.collapsible{
+
+}
+
+img{
+	width: 65%;
+	margin: 8px;
+}
+
+a {
+    color: hotpink;
+}
+
+</style>
+<script>
+window.onload = ()=>{
+    var allCollapsible = document.getElementsByClassName("collapsible")
+	var i;
+	for(i = 0;i< allCollapsible.length;i++){
+		allCollapsible[i].addEventListener("click", (event)=>{
+			var content = event.target.nextElementSibling
+			var strip = event.target.querySelector('.strip')
+			if (content.className === "collapsed") {
+			  content.className = "expanded";
+			  strip.innerHTML = "收起"
+			} else {
+			  content.className = "collapsed";
+			  strip.innerHTML = "展開"
+			}
+		})
+	}
+}
+</script>
+<body class="font-standard">
+
+<div style="margin: 8px">
+<div class="section box">
+	<span class="title">ebb Android 更新概要</span>
+</div>
+
+<div class="section box" style="width: inherit;margin-top:8px">
+	<span class="subtitle">關於 ebb Android</span>
+	<p>目前 ebb Android 應用程式已經下架，往後可以透過自行安裝 APK 檔案更新。<br>
+	若你是從 Google Play 安裝 ebb，<span class="hightlighted">需先刪除應用程式</span><br><span class="hightlighted">再重新以APK安裝</span>，重新安裝往後更新只需直接安裝即可。</p><br>
+	詳情請參閱 <a href="https://ebb.andro1d.app/howto.html">更新教學</a>
+</div>
+
+<div id="v1_4" class="section box" style="width: inherit;margin-top:8px">
+	
+	<span class="subtitle collapsible">版本 1.4 
+		<span class="strip">展開</span>
+	</span>
+	<div class="collapsed">
+	 <br>
+	 <p>
+	 非常感謝各位對 ebb Android 的支持，我們很高興為大家帶來新版本 1.4 ，<br>這個版本新增了「動畫更新通知」，同時修正了數項引致程式崩潰的問題，<br>為提供更好的播放體驗，閣下需更新到版本 1.4 才能繼續觀賞
+	 </p>
+	 
+	 <p>
+	- 全新<span class="hightlighted">動畫更新通知</span>功能 <br>
+	你正在煩惱著本季新番太多，需要經常查看新一集情況嗎？ <br>ebb 全新推出「動畫更新通知」，在更新集數時即時推送到你的裝置，讓你追番更快捷方便！ <br>
+	</p>
+	
+	<h2>通知設定</h2>
+	
+	<img src="https://i.imag.cx/R3AUp.png">
+	
+	<p>
+	前往 ebb <span class="hightlighted">設定</span> → <span class="hightlighted">動畫更新通知</span> <br>
+	</p>
+	
+	<img src="https://i.imag.cx/R3qrG.png">
+	
+	<p>
+	即可選擇要接收的更新通知，可以選擇<br>只接收 <span class="hightlighted">追番名單內</span> 的動畫、接收<span class="hightlighted">所有動畫</span>或完全<span class="hightlighted">不接收</span>更新消息<br>
+	</p>
+	
+	<h2>如何加入追番名單</h2>
+	
+	<img src="https://i.imag.cx/R3Yft.png">
+	
+	<p>
+	前往 <span class="hightlighted">放送時間表</span>，按下想追蹤的番劇右邊的<span class="hightlighted">鈴鐺</span>即可加入/停止追蹤<br>
+	</p>
+	
+	<img src="https://i.imag.cx/R30my.png">
+	
+	<p>
+	你亦可以在<span class="hightlighted">動畫資料頁</span>按下右上角的<span class="hightlighted">鈴鐺</span>加入/停止追蹤<br>
+	</p>
+	
+	</div>
+	
+</div>
+
+
+</body>
+</html>
