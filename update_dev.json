@@ -1,5 +1,5 @@
 {
-	"remoteVersion" : 10,
+	"remoteVersion" : 9,
 	"remoteVersionName" : "1.4",
 	"forceUpdateMin": 9,
 	"forceUpdate": true,
@@ -17,7 +17,7 @@
 		},
 		{
 			"name": "下載更新",
-			"url" : "https://get.ebb.app/android"
+			"url" : "http://get.ebb.app/android/dl/1.4"
 		}
 	]
 }
