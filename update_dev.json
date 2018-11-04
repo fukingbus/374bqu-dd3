@@ -4,7 +4,7 @@
 	"forceUpdateMin": 9,
 	"forceUpdate": true,
 	"updateTitle" : "發現新版本",
-	"updateDescription": "更穩定的新版本 ebb 已準備就緒\nv1.4 版本更新概要\n\n-全新追番推送通知\n-修正更多導致崩潰問題\n\nhttps://ebb.andro1d.app/changelog.html",
+	"updateDescription": "更穩定的新版本 ebb 已準備就緒\n為提供更好的播放體驗，\n閣下需更新到版本 1.4 才能繼續觀賞\n\nv1.4 版本更新概要\n\n-全新追番推送通知\n-修正更多導致崩潰問題\n\nhttps://ebb.andro1d.app/changelog.html",
 	"showAds": true,
 	"extraAction": [
 		{
