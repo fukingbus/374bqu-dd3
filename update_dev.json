@@ -16,6 +16,10 @@
 			"url" : "https://ebb.andro1d.app/changelog.html"
 		},
 		{
+			"name": "[必看] 安裝教學",
+			"url" : "https://ebb.andro1d.app/howto.html"
+		},
+		{
 			"name": "下載更新",
 			"url" : "https://get.ebb.app/android/dl/1.4.1"
 		}
