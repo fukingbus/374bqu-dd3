@@ -1,7 +1,7 @@
 {
 	"remoteVersion" : 11,
 	"remoteVersionName" : "1.4.2",
-	"forceUpdateMin": 10,
+	"forceUpdateMin": 11,
 	"forceUpdate": true,
 	"updateTitle" : "發現新版本",
 	"updateDescription": "新版本 ebb 已準備就緒\n\nv1.4.2 版本更新概要\n\n-修正無法正常觀看動畫",
