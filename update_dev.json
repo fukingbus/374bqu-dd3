@@ -1,10 +1,10 @@
 {
-	"remoteVersion" : 10,
-	"remoteVersionName" : "1.4.1",
-	"forceUpdateMin": 9,
+	"remoteVersion" : 11,
+	"remoteVersionName" : "1.4.2",
+	"forceUpdateMin": 10,
 	"forceUpdate": true,
 	"updateTitle" : "發現新版本",
-	"updateDescription": "更穩定的新版本 ebb 已準備就緒\n\nv1.4.1 版本更新概要\n\n-加入更新檔下載功能\n-修正無法正常觀看動畫\n-修正更多導致崩潰問題",
+	"updateDescription": "新版本 ebb 已準備就緒\n\nv1.4.2 版本更新概要\n\n-修正無法正常觀看動畫",
 	"showAds": true,
 	"extraAction": [
 		{
@@ -17,7 +17,7 @@
 		},
 		{
 			"name": "下載更新",
-			"url" : "https://get.ebb.app/android/dl/1.4.1"
+			"url" : "https://get.ebb.app/android/dl/1.4.2"
 		}
 	]
 }
