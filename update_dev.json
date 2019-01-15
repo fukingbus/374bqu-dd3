@@ -6,7 +6,7 @@
 	"updateTitle" : "發現新版本",
 	"updateDescription": "新版本 ebb 已準備就緒\n\nv1.4.3 版本更新概要\n\n-修正無法正常觀看動畫",
 	"noticeTitle" : "ebb 已回復正常服務",
-	"noticeSummary" : "為防止惡意程式佔用流量影響用戶連線速度及觀看體驗\n網站即將實施「完全會員制」，用戶必須連結帳號後才可觀看\n我們明白此措施會造成不便，希望各位了解和體諒！ ( ; ω ; )",
+	"noticeSummary" : "為防止惡意程式佔用流量影響用戶連線速度及觀看體驗\n網站即將實施「完全會員制」，用戶必須連結帳號後才可觀看\n我們明白此措施會造成不便，希望各位了解和體諒！ ( ; ω ; )\n\n http://google.com",
 	"showAds": true,
 	"extraAction": [
 		{
