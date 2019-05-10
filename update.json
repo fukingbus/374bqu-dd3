@@ -5,8 +5,8 @@
 	"forceUpdate": true,
 	"updateTitle" : "發現新版本",
 	"updateDescription": "新版本 ebb 已準備就緒\n\nv1.4.3a 版本更新概要\n\n-修正無法正常觀看動畫",
-	"noticeTitle" : "",
-	"noticeSummary" : "",
+	"noticeTitle" : "ebb Android 暫停服務",
+	"noticeSummary" : "目前 ebb 正採取登入等人流限制措施\nApp 將無法正常使用，請改用 ebb.io 網站\n造成不便，敬請原諒",
 	"showAds": true,
 	"extraAction": [
 		{
